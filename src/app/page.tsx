@@ -4,8 +4,12 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
+      <h1>
+        Xcode.zip
+      </h1>
 
       <div className={styles.grid}>
+
         <a
           href="https://developer.apple.com/xcode/resources/"
           className={styles.card}
@@ -27,7 +31,19 @@ export default function Home() {
           <h2>
             Developer <span>-&gt;</span>
           </h2>
-          <p>Download the <span className={styles.code}>.dmg</span> and more developer resources. You need to login your Apple ID.</p>
+          <p>Download the <code className={styles.code}>.dmg</code> and more developer resources. You need to login your Apple ID.</p>
+        </a>
+
+        <a
+          href="https://xcodereleases.com/"
+          className={styles.card}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>
+            Xcode Releases <span>-&gt;</span>
+          </h2>
+          <p>Releases and downloads of Xcode.</p>
         </a>
 
         <a
