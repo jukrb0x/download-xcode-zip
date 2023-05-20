@@ -4,9 +4,14 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <h1>
-        Xcode.zip
-      </h1>
+      <div
+        style={{width: '100%', maxWidth:'var(--max-width)'}}
+      >
+        <h1>
+          Download.Xcode.zip
+        </h1>
+        <h3>like a pro 👨🏻‍💻 </h3>
+      </div>
 
       <div className={styles.grid}>
 
@@ -43,7 +48,7 @@ export default function Home() {
           <h2>
             Xcode Releases <span>-&gt;</span>
           </h2>
-          <p>Releases and downloads of Xcode.</p>
+          <p>View the releases and downloads of Xcode from xcodereleases.com</p>
         </a>
 
         <a
