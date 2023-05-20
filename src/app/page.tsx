@@ -4,92 +4,54 @@ import styles from './page.module.css'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
 
       <div className={styles.grid}>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://developer.apple.com/xcode/resources/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+           Xcode Resources <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>The official Xcode resources website from Apple.</p>
         </a>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://developer.apple.com/download/all/?q=Xcode"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Learn <span>-&gt;</span>
+            Developer <span>-&gt;</span>
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>Download the <span className={styles.code}>.dmg</span> and more developer resources. You need to login your Apple ID.</p>
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://wh0.is"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Templates <span>-&gt;</span>
+            My Blog <span>-&gt;</span>
           </h2>
-          <p>Explore the Next.js 13 playground.</p>
+          <p>Visit my blog just for fun.</p>
         </a>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
       </div>
+
+
+      <div className={styles.description}>
+        <p>
+          This website is not affiliated with or endorsed by Apple Inc. in any way.<br />
+          We do not provide any Xcode downloads or file storage.
+        </p>
+      </div>
+
     </main>
   )
 }
